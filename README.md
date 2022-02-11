@@ -31,12 +31,13 @@ You can install this package by following the below instructions.
 - *Note:* To run on Mac, [AWS_SDK_CPP](https://github.com/aws/aws-sdk-cpp) must be installed.
 
 
-#### Installing S3-Plugin via Wheel
+#### Installing S3-Plugin via Pip
 
 ```shell script
-# TODO Add final public wheels
-aws s3 cp <S3 URI> .
-pip install <whl name awsio-0.0.1-cp...whl>
+# Install the desired whl package
+# PT_S3_WHL_CPU=https://aws-s3-plugin.s3.us-west-2.amazonaws.com/binaries/0.0.1/1c3e69e/awsio-0.0.1-cp38-cp38-manylinux1_x86_64.whl
+PT_S3_WHL_GPU=https://aws-s3-plugin.s3.us-west-2.amazonaws.com/binaries/0.0.1/1c3e69e/awsio-0.0.1-cp38-cp38-manylinux1_x86_64.whl
+pip install $PT_S3_WHL_GPU
 ```
 
 ### Configuration

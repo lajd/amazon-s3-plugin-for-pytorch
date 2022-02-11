@@ -1,6 +1,9 @@
 # Ignore Mac system files
 .DS_store
 
+# Pycharm
+.idea
+
 # Ignore file extensions below
 *.coverage
 *.egg-info
